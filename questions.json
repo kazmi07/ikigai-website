@@ -1,0 +1,1969 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "level": 1,
+      "text": "What energizes you most in your free time?",
+      "category": "primary",
+      "options": [
+        {
+          "text": "Creating art, writing, or expressing myself creatively",
+          "weights": {
+            "novelist": 2,
+            "visual_artist": 2,
+            "musician": 2,
+            "photographer": 1,
+            "graphic_designer": 1,
+            "content_creator": 1
+          }
+        },
+        {
+          "text": "Helping others, teaching, or volunteering",
+          "weights": {
+            "teacher": 2,
+            "doctor": 2,
+            "counselor": 2,
+            "social_worker": 2,
+            "nurse": 1,
+            "life_coach": 1
+          }
+        },
+        {
+          "text": "Solving problems, analyzing data, or learning new tech",
+          "weights": {
+            "app_developer": 2,
+            "data_scientist": 2,
+            "ai_engineer": 2,
+            "cybersecurity": 2,
+            "ux_designer": 1,
+            "game_developer": 1
+          }
+        },
+        {
+          "text": "Building things, cooking, or working with my hands",
+          "weights": {
+            "chef": 2,
+            "baker": 2,
+            "architect": 2,
+            "product_designer": 2,
+            "farmer": 1,
+            "event_planner": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "level": 1,
+      "text": "What kind of books, videos, or content do you consume most?",
+      "category": "primary",
+      "options": [
+        {
+          "text": "Novels, poetry, creative writing, storytelling content",
+          "weights": {
+            "novelist": 3,
+            "poet": 3,
+            "screenwriter": 2,
+            "journalist": 1,
+            "content_creator": 1
+          }
+        },
+        {
+          "text": "Self-help, psychology, personal development",
+          "weights": {
+            "life_coach": 3,
+            "counselor": 2,
+            "therapist": 2,
+            "teacher": 1,
+            "speaker": 1
+          }
+        },
+        {
+          "text": "Tech tutorials, programming, science documentaries",
+          "weights": {
+            "app_developer": 3,
+            "data_scientist": 2,
+            "ai_engineer": 2,
+            "game_developer": 2,
+            "cybersecurity": 1
+          }
+        },
+        {
+          "text": "Cooking shows, DIY, home improvement, crafting",
+          "weights": {
+            "chef": 3,
+            "baker": 3,
+            "interior_designer": 2,
+            "architect": 1,
+            "product_designer": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "level": 1,
+      "text": "What do people often ask you for help with?",
+      "category": "skill",
+      "options": [
+        {
+          "text": "Writing, editing, or creative ideas",
+          "weights": {
+            "novelist": 2,
+            "content_creator": 2,
+            "journalist": 2,
+            "blogger": 2,
+            "poet": 1
+          }
+        },
+        {
+          "text": "Advice, listening, or emotional support",
+          "weights": {
+            "counselor": 3,
+            "therapist": 3,
+            "life_coach": 2,
+            "social_worker": 2,
+            "teacher": 1
+          }
+        },
+        {
+          "text": "Tech support, fixing devices, or coding help",
+          "weights": {
+            "app_developer": 3,
+            "cybersecurity": 2,
+            "game_developer": 2,
+            "data_scientist": 1,
+            "it_specialist": 2
+          }
+        },
+        {
+          "text": "Cooking, recipes, or making things",
+          "weights": {
+            "chef": 3,
+            "baker": 3,
+            "product_designer": 2,
+            "architect": 1,
+            "event_planner": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "level": 1,
+      "text": "If money were no object, how would you spend your days?",
+      "category": "passion",
+      "options": [
+        {
+          "text": "Writing stories, painting, playing music, creating art",
+          "weights": {
+            "novelist": 3,
+            "visual_artist": 3,
+            "musician": 3,
+            "photographer": 2,
+            "poet": 2
+          }
+        },
+        {
+          "text": "Traveling and helping people in need around the world",
+          "weights": {
+            "social_worker": 3,
+            "doctor": 2,
+            "nurse": 2,
+            "environmental_activist": 2,
+            "humanitarian": 3
+          }
+        },
+        {
+          "text": "Building apps, learning new tech, creating digital products",
+          "weights": {
+            "app_developer": 3,
+            "game_developer": 3,
+            "ai_engineer": 2,
+            "ux_designer": 2,
+            "product_manager": 1
+          }
+        },
+        {
+          "text": "Opening a restaurant, starting a bakery, or making products",
+          "weights": {
+            "chef": 3,
+            "baker": 3,
+            "food_entrepreneur": 3,
+            "restaurateur": 2,
+            "product_designer": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "level": 2,
+      "text": "For creative expression, which format excites you most?",
+      "category": "arts",
+      "condition": {
+        "previous": ["q1", "q2", "q4"],
+        "threshold": 4
+      },
+      "options": [
+        {
+          "text": "Writing stories, poems, or articles",
+          "weights": {
+            "novelist": 3,
+            "poet": 3,
+            "journalist": 2,
+            "blogger": 2,
+            "screenwriter": 2
+          }
+        },
+        {
+          "text": "Drawing, painting, or digital art",
+          "weights": {
+            "visual_artist": 3,
+            "illustrator": 3,
+            "graphic_designer": 2,
+            "animator": 2,
+            "concept_artist": 2
+          }
+        },
+        {
+          "text": "Playing or composing music",
+          "weights": {
+            "musician": 3,
+            "composer": 3,
+            "songwriter": 3,
+            "music_producer": 2,
+            "dj": 1
+          }
+        },
+        {
+          "text": "Photography or videography",
+          "weights": {
+            "photographer": 3,
+            "videographer": 3,
+            "film_director": 2,
+            "content_creator": 2,
+            "photojournalist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "level": 2,
+      "text": "What type of helping role feels most natural to you?",
+      "category": "helping",
+      "condition": {
+        "previous": ["q1", "q2", "q4"],
+        "threshold": 4
+      },
+      "options": [
+        {
+          "text": "Teaching and educating others",
+          "weights": {
+            "teacher": 3,
+            "professor": 3,
+            "trainer": 2,
+            "coach": 2,
+            "mentor": 2
+          }
+        },
+        {
+          "text": "Healing and healthcare",
+          "weights": {
+            "doctor": 3,
+            "nurse": 3,
+            "therapist": 2,
+            "physical_therapist": 2,
+            "nutritionist": 1
+          }
+        },
+        {
+          "text": "Counseling and emotional support",
+          "weights": {
+            "counselor": 3,
+            "therapist": 3,
+            "social_worker": 2,
+            "psychologist": 2,
+            "life_coach": 2
+          }
+        },
+        {
+          "text": "Direct service and caregiving",
+          "weights": {
+            "social_worker": 3,
+            "caregiver": 3,
+            "nonprofit_worker": 2,
+            "community_organizer": 2,
+            "volunteer_coordinator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "level": 2,
+      "text": "What kind of problems do you enjoy solving?",
+      "category": "analytical",
+      "condition": {
+        "previous": ["q1", "q2", "q4"],
+        "threshold": 4
+      },
+      "options": [
+        {
+          "text": "Technical and coding challenges",
+          "weights": {
+            "app_developer": 3,
+            "software_engineer": 3,
+            "game_developer": 2,
+            "ai_engineer": 2,
+            "cybersecurity": 2
+          }
+        },
+        {
+          "text": "Data and pattern-finding problems",
+          "weights": {
+            "data_scientist": 3,
+            "data_analyst": 3,
+            "business_intelligence": 2,
+            "researcher": 2,
+            "statistician": 2
+          }
+        },
+        {
+          "text": "Business and strategy challenges",
+          "weights": {
+            "consultant": 3,
+            "entrepreneur": 3,
+            "product_manager": 2,
+            "marketing_strategist": 2,
+            "financial_advisor": 1
+          }
+        },
+        {
+          "text": "Scientific and research questions",
+          "weights": {
+            "scientist": 3,
+            "researcher": 3,
+            "environmental_scientist": 2,
+            "biologist": 2,
+            "chemist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "level": 2,
+      "text": "What type of making gives you the most satisfaction?",
+      "category": "maker",
+      "condition": {
+        "previous": ["q1", "q2", "q4"],
+        "threshold": 4
+      },
+      "options": [
+        {
+          "text": "Cooking and creating food",
+          "weights": {
+            "chef": 3,
+            "baker": 3,
+            "food_entrepreneur": 2,
+            "recipe_developer": 2,
+            "caterer": 2
+          }
+        },
+        {
+          "text": "Building physical objects and products",
+          "weights": {
+            "product_designer": 3,
+            "woodworker": 2,
+            "inventor": 2,
+            "craftsman": 2,
+            "engineer": 1
+          }
+        },
+        {
+          "text": "Designing spaces and environments",
+          "weights": {
+            "architect": 3,
+            "interior_designer": 3,
+            "landscape_architect": 2,
+            "urban_planner": 2,
+            "set_designer": 1
+          }
+        },
+        {
+          "text": "Creating experiences and events",
+          "weights": {
+            "event_planner": 3,
+            "wedding_planner": 2,
+            "conference_organizer": 2,
+            "festival_director": 2,
+            "experience_designer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "level": 3,
+      "text": "What kind of writing appeals to you most?",
+      "category": "writer",
+      "condition": {
+        "q5": 0
+      },
+      "options": [
+        {
+          "text": "Fiction - novels, short stories, creative writing",
+          "weights": {
+            "novelist": 3,
+            "fiction_writer": 3,
+            "screenwriter": 2,
+            "fantasy_writer": 2,
+            "mystery_writer": 2
+          }
+        },
+        {
+          "text": "Non-fiction - articles, blogs, journalism",
+          "weights": {
+            "journalist": 3,
+            "blogger": 3,
+            "content_creator": 2,
+            "technical_writer": 2,
+            "copywriter": 1
+          }
+        },
+        {
+          "text": "Poetry or lyrics",
+          "weights": {
+            "poet": 3,
+            "songwriter": 3,
+            "lyricist": 3,
+            "spoken_word_artist": 2
+          }
+        },
+        {
+          "text": "Scripts and screenplays",
+          "weights": {
+            "screenwriter": 3,
+            "playwright": 3,
+            "film_director": 2,
+            "tv_writer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "level": 3,
+      "text": "What's your preferred visual art medium?",
+      "category": "visual_artist",
+      "condition": {
+        "q5": 1
+      },
+      "options": [
+        {
+          "text": "Digital art and design",
+          "weights": {
+            "graphic_designer": 3,
+            "illustrator": 3,
+            "ui_designer": 2,
+            "animator": 2,
+            "concept_artist": 2
+          }
+        },
+        {
+          "text": "Traditional painting or drawing",
+          "weights": {
+            "painter": 3,
+            "illustrator": 2,
+            "fine_artist": 3,
+            "portrait_artist": 2,
+            "sketch_artist": 2
+          }
+        },
+        {
+          "text": "Sculpture or 3D art",
+          "weights": {
+            "sculptor": 3,
+            "ceramic_artist": 2,
+            "installation_artist": 2,
+            "3d_modeler": 1
+          }
+        },
+        {
+          "text": "Photography",
+          "weights": {
+            "photographer": 3,
+            "portrait_photographer": 2,
+            "commercial_photographer": 2,
+            "photojournalist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "level": 3,
+      "text": "How do you prefer to engage with music?",
+      "category": "musician",
+      "condition": {
+        "q5": 2
+      },
+      "options": [
+        {
+          "text": "Performing live",
+          "weights": {
+            "musician": 3,
+            "singer": 3,
+            "band_member": 3,
+            "orchestra_player": 2,
+            "street_performer": 1
+          }
+        },
+        {
+          "text": "Composing and creating",
+          "weights": {
+            "composer": 3,
+            "songwriter": 3,
+            "music_producer": 2,
+            "film_scorer": 2,
+            "arranger": 2
+          }
+        },
+        {
+          "text": "Teaching music",
+          "weights": {
+            "music_teacher": 3,
+            "instructor": 2,
+            "coach": 2,
+            "workshop_facilitator": 1
+          }
+        },
+        {
+          "text": "Technical production",
+          "weights": {
+            "audio_engineer": 3,
+            "music_producer": 3,
+            "sound_designer": 2,
+            "recording_engineer": 2,
+            "live_sound_engineer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "level": 3,
+      "text": "What age group do you prefer teaching?",
+      "category": "teacher",
+      "condition": {
+        "q6": 0
+      },
+      "options": [
+        {
+          "text": "Young children (elementary age)",
+          "weights": {
+            "elementary_teacher": 3,
+            "preschool_teacher": 2,
+            "special_ed_teacher": 2,
+            "child_development_specialist": 1
+          }
+        },
+        {
+          "text": "Teenagers (middle/high school)",
+          "weights": {
+            "high_school_teacher": 3,
+            "middle_school_teacher": 3,
+            "subject_teacher": 2,
+            "coach": 1
+          }
+        },
+        {
+          "text": "Young adults (college/university)",
+          "weights": {
+            "professor": 3,
+            "lecturer": 2,
+            "academic_advisor": 1,
+            "researcher": 1
+          }
+        },
+        {
+          "text": "Adults and professionals",
+          "weights": {
+            "corporate_trainer": 3,
+            "adult_educator": 2,
+            "workshop_facilitator": 2,
+            "online_course_creator": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "level": 3,
+      "text": "What area of healthcare interests you most?",
+      "category": "healthcare",
+      "condition": {
+        "q6": 1
+      },
+      "options": [
+        {
+          "text": "General medicine and patient care",
+          "weights": {
+            "doctor": 3,
+            "nurse": 3,
+            "physician_assistant": 2,
+            "family_practitioner": 2
+          }
+        },
+        {
+          "text": "Mental health and psychology",
+          "weights": {
+            "therapist": 3,
+            "psychologist": 3,
+            "counselor": 3,
+            "psychiatrist": 2
+          }
+        },
+        {
+          "text": "Preventive care and wellness",
+          "weights": {
+            "nutritionist": 3,
+            "personal_trainer": 2,
+            "health_coach": 2,
+            "public_health_worker": 1
+          }
+        },
+        {
+          "text": "Specialized care",
+          "weights": {
+            "surgeon": 2,
+            "pediatrician": 2,
+            "geriatric_nurse": 2,
+            "physical_therapist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "level": 3,
+      "text": "What kind of tech work excites you?",
+      "category": "tech",
+      "condition": {
+        "q7": 0
+      },
+      "options": [
+        {
+          "text": "Building apps and software",
+          "weights": {
+            "app_developer": 3,
+            "software_engineer": 3,
+            "web_developer": 2,
+            "mobile_developer": 2,
+            "full_stack_developer": 2
+          }
+        },
+        {
+          "text": "Game development",
+          "weights": {
+            "game_developer": 3,
+            "game_designer": 3,
+            "unity_developer": 2,
+            "level_designer": 2,
+            "vr_developer": 1
+          }
+        },
+        {
+          "text": "AI and machine learning",
+          "weights": {
+            "ai_engineer": 3,
+            "machine_learning_engineer": 3,
+            "data_scientist": 2,
+            "nlp_engineer": 2,
+            "computer_vision_engineer": 1
+          }
+        },
+        {
+          "text": "Cybersecurity",
+          "weights": {
+            "cybersecurity_analyst": 3,
+            "ethical_hacker": 3,
+            "security_engineer": 2,
+            "cryptographer": 1,
+            "security_consultant": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "level": 3,
+      "text": "What type of food work appeals to you?",
+      "category": "culinary",
+      "condition": {
+        "q8": 0
+      },
+      "options": [
+        {
+          "text": "Restaurant kitchen work",
+          "weights": {
+            "chef": 3,
+            "line_cook": 2,
+            "sous_chef": 2,
+            "kitchen_manager": 1,
+            "executive_chef": 2
+          }
+        },
+        {
+          "text": "Baking and pastry",
+          "weights": {
+            "baker": 3,
+            "pastry_chef": 3,
+            "cake_designer": 2,
+            "bread_baker": 2,
+            "patissier": 2
+          }
+        },
+        {
+          "text": "Food business",
+          "weights": {
+            "food_entrepreneur": 3,
+            "restaurateur": 3,
+            "food_truck_owner": 2,
+            "caterer": 2,
+            "meal_prep_business": 1
+          }
+        },
+        {
+          "text": "Food media",
+          "weights": {
+            "food_blogger": 3,
+            "food_writer": 2,
+            "recipe_developer": 2,
+            "food_stylist": 1,
+            "food_photographer": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "level": 3,
+      "text": "What kind of novels would you want to write?",
+      "category": "novelist",
+      "condition": {
+        "q9": 0
+      },
+      "options": [
+        {
+          "text": "Literary fiction",
+          "weights": {
+            "literary_novelist": 3,
+            "author": 2,
+            "short_story_writer": 1
+          }
+        },
+        {
+          "text": "Fantasy or science fiction",
+          "weights": {
+            "fantasy_writer": 3,
+            "sci_fi_writer": 3,
+            "world_builder": 2
+          }
+        },
+        {
+          "text": "Mystery or thriller",
+          "weights": {
+            "mystery_writer": 3,
+            "thriller_writer": 3,
+            "crime_writer": 2
+          }
+        },
+        {
+          "text": "Romance or contemporary",
+          "weights": {
+            "romance_novelist": 3,
+            "contemporary_fiction_writer": 2,
+            "women_fiction_writer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "level": 3,
+      "text": "What's your graphic design specialty?",
+      "category": "graphic_designer",
+      "condition": {
+        "q10": 0
+      },
+      "options": [
+        {
+          "text": "Branding and logo design",
+          "weights": {
+            "brand_designer": 3,
+            "logo_designer": 3,
+            "visual_identity_designer": 2
+          }
+        },
+        {
+          "text": "UI/UX and web design",
+          "weights": {
+            "ui_designer": 3,
+            "ux_designer": 3,
+            "product_designer": 2,
+            "web_designer": 2
+          }
+        },
+        {
+          "text": "Print and publication design",
+          "weights": {
+            "print_designer": 3,
+            "editorial_designer": 2,
+            "typographer": 2,
+            "layout_artist": 2
+          }
+        },
+        {
+          "text": "Motion graphics and animation",
+          "weights": {
+            "motion_designer": 3,
+            "animator": 3,
+            "video_editor": 1,
+            "vfx_artist": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "level": 3,
+      "text": "What's your photography passion?",
+      "category": "photographer",
+      "condition": {
+        "q10": 3
+      },
+      "options": [
+        {
+          "text": "Portrait and people photography",
+          "weights": {
+            "portrait_photographer": 3,
+            "wedding_photographer": 2,
+            "fashion_photographer": 2,
+            "family_photographer": 2
+          }
+        },
+        {
+          "text": "Nature and landscape",
+          "weights": {
+            "nature_photographer": 3,
+            "wildlife_photographer": 3,
+            "landscape_photographer": 3,
+            "travel_photographer": 2
+          }
+        },
+        {
+          "text": "Commercial and product",
+          "weights": {
+            "commercial_photographer": 3,
+            "product_photographer": 3,
+            "food_photographer": 2,
+            "real_estate_photographer": 1
+          }
+        },
+        {
+          "text": "Street and documentary",
+          "weights": {
+            "photojournalist": 3,
+            "street_photographer": 3,
+            "documentary_photographer": 3,
+            "conflict_photographer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "level": 3,
+      "text": "What kind of counselor would you want to be?",
+      "category": "counselor",
+      "condition": {
+        "q6": 2
+      },
+      "options": [
+        {
+          "text": "Marriage and family counseling",
+          "weights": {
+            "marriage_counselor": 3,
+            "family_therapist": 3,
+            "relationship_coach": 2
+          }
+        },
+        {
+          "text": "Addiction counseling",
+          "weights": {
+            "addiction_counselor": 3,
+            "substance_abuse_counselor": 3,
+            "recovery_coach": 2
+          }
+        },
+        {
+          "text": "Career counseling",
+          "weights": {
+            "career_counselor": 3,
+            "vocational_counselor": 2,
+            "career_coach": 2
+          }
+        },
+        {
+          "text": "Grief and trauma counseling",
+          "weights": {
+            "grief_counselor": 3,
+            "trauma_therapist": 3,
+            "crisis_counselor": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "level": 3,
+      "text": "What type of data work interests you?",
+      "category": "data_scientist",
+      "condition": {
+        "q7": 1
+      },
+      "options": [
+        {
+          "text": "Data analysis and visualization",
+          "weights": {
+            "data_analyst": 3,
+            "business_intelligence": 2,
+            "data_visualization_specialist": 2
+          }
+        },
+        {
+          "text": "Machine learning and AI",
+          "weights": {
+            "machine_learning_engineer": 3,
+            "ai_researcher": 2,
+            "deep_learning_specialist": 2
+          }
+        },
+        {
+          "text": "Data engineering",
+          "weights": {
+            "data_engineer": 3,
+            "big_data_engineer": 2,
+            "database_administrator": 1
+          }
+        },
+        {
+          "text": "Research and statistics",
+          "weights": {
+            "statistician": 3,
+            "research_scientist": 2,
+            "market_research_analyst": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "level": 3,
+      "text": "What kind of business do you want to build?",
+      "category": "entrepreneur",
+      "condition": {
+        "q7": 2
+      },
+      "options": [
+        {
+          "text": "Tech startup",
+          "weights": {
+            "tech_entrepreneur": 3,
+            "startup_founder": 3,
+            "saas_founder": 2
+          }
+        },
+        {
+          "text": "Small local business",
+          "weights": {
+            "small_business_owner": 3,
+            "retail_owner": 2,
+            "local_shop_owner": 2
+          }
+        },
+        {
+          "text": "Social enterprise",
+          "weights": {
+            "social_entrepreneur": 3,
+            "nonprofit_founder": 2,
+            "impact_entrepreneur": 2
+          }
+        },
+        {
+          "text": "E-commerce business",
+          "weights": {
+            "ecommerce_entrepreneur": 3,
+            "dropshipper": 1,
+            "amazon_seller": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "level": 3,
+      "text": "What's your preferred baking style?",
+      "category": "baker",
+      "condition": {
+        "q15": 1
+      },
+      "options": [
+        {
+          "text": "Bread and artisan baking",
+          "weights": {
+            "bread_baker": 3,
+            "artisan_baker": 3,
+            "sourdough_baker": 2
+          }
+        },
+        {
+          "text": "Cakes and celebration baking",
+          "weights": {
+            "cake_designer": 3,
+            "wedding_cake_designer": 3,
+            "celebration_baker": 2
+          }
+        },
+        {
+          "text": "Pastry and desserts",
+          "weights": {
+            "pastry_chef": 3,
+            "dessert_artist": 2,
+            "patissier": 2
+          }
+        },
+        {
+          "text": "Cookies and confections",
+          "weights": {
+            "cookie_artist": 2,
+            "confectioner": 2,
+            "chocolatier": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "level": 4,
+      "text": "Do you prefer working alone or with others?",
+      "category": "work_style",
+      "options": [
+        {
+          "text": "Solo - I do my best work independently",
+          "weights": {
+            "novelist": 2,
+            "painter": 2,
+            "programmer": 1,
+            "researcher": 1,
+            "photographer": 1
+          }
+        },
+        {
+          "text": "Small teams - 2-5 people",
+          "weights": {
+            "startup_founder": 2,
+            "graphic_designer": 1,
+            "chef": 1,
+            "game_developer": 1
+          }
+        },
+        {
+          "text": "Large teams - part of something bigger",
+          "weights": {
+            "teacher": 1,
+            "nurse": 1,
+            "software_engineer": 1,
+            "architect": 1
+          }
+        },
+        {
+          "text": "Mix - I like variety",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "level": 4,
+      "text": "How important is financial stability to you?",
+      "category": "motivation",
+      "options": [
+        {
+          "text": "Very important - I need steady income",
+          "weights": {
+            "teacher": 1,
+            "nurse": 1,
+            "accountant": 2,
+            "engineer": 1
+          }
+        },
+        {
+          "text": "Somewhat important - comfortable is fine",
+          "weights": {}
+        },
+        {
+          "text": "Not important - I value passion over pay",
+          "weights": {
+            "artist": 2,
+            "musician": 2,
+            "poet": 2,
+            "activist": 2
+          }
+        },
+        {
+          "text": "I want high earning potential",
+          "weights": {
+            "entrepreneur": 2,
+            "tech_founder": 2,
+            "surgeon": 1,
+            "corporate_lawyer": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "level": 4,
+      "text": "What's your ideal work environment?",
+      "category": "environment",
+      "options": [
+        {
+          "text": "Home office or remote",
+          "weights": {
+            "writer": 2,
+            "programmer": 2,
+            "designer": 1,
+            "content_creator": 2
+          }
+        },
+        {
+          "text": "Creative studio or workshop",
+          "weights": {
+            "artist": 2,
+            "designer": 2,
+            "architect": 1,
+            "photographer": 1
+          }
+        },
+        {
+          "text": "Office or corporate setting",
+          "weights": {
+            "consultant": 2,
+            "manager": 2,
+            "analyst": 2
+          }
+        },
+        {
+          "text": "Outdoors or on location",
+          "weights": {
+            "environmental_activist": 2,
+            "photographer": 1,
+            "farmer": 2,
+            "construction": 1
+          }
+        },
+        {
+          "text": "Kitchen or hands-on space",
+          "weights": {
+            "chef": 3,
+            "baker": 3,
+            "sculptor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "level": 4,
+      "text": "How do you handle stress and pressure?",
+      "category": "personality",
+      "options": [
+        {
+          "text": "I thrive under pressure and deadlines",
+          "weights": {
+            "journalist": 2,
+            "event_planner": 2,
+            "surgeon": 1,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "text": "I prefer calm, predictable environments",
+          "weights": {
+            "researcher": 2,
+            "librarian": 2,
+            "data_analyst": 1
+          }
+        },
+        {
+          "text": "I'm flexible and adapt as needed",
+          "weights": {}
+        },
+        {
+          "text": "I avoid high-stress situations",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "level": 4,
+      "text": "What's your relationship with technology?",
+      "category": "skill",
+      "options": [
+        {
+          "text": "I love learning new tech and tools",
+          "weights": {
+            "app_developer": 2,
+            "ai_engineer": 2,
+            "game_developer": 2
+          }
+        },
+        {
+          "text": "I use tech as a tool but don't obsess",
+          "weights": {}
+        },
+        {
+          "text": "I prefer analog, hands-on work",
+          "weights": {
+            "painter": 2,
+            "sculptor": 2,
+            "baker": 1,
+            "farmer": 1
+          }
+        },
+        {
+          "text": "I'm somewhere in between",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "level": 4,
+      "text": "How important is creative freedom to you?",
+      "category": "values",
+      "options": [
+        {
+          "text": "Essential - I need to express myself",
+          "weights": {
+            "artist": 3,
+            "writer": 3,
+            "musician": 3,
+            "designer": 2
+          }
+        },
+        {
+          "text": "Important but not everything",
+          "weights": {}
+        },
+        {
+          "text": "I prefer clear guidelines and structure",
+          "weights": {
+            "accountant": 2,
+            "lawyer": 1,
+            "administrator": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "level": 4,
+      "text": "What's your ideal work schedule?",
+      "category": "lifestyle",
+      "options": [
+        {
+          "text": "Traditional 9-5, Monday-Friday",
+          "weights": {
+            "teacher": 1,
+            "corporate": 1
+          }
+        },
+        {
+          "text": "Flexible hours, work when inspired",
+          "weights": {
+            "artist": 2,
+            "writer": 2,
+            "freelancer": 2
+          }
+        },
+        {
+          "text": "Night owl - I work best in evenings",
+          "weights": {
+            "programmer": 1,
+            "musician": 1
+          }
+        },
+        {
+          "text": "Early bird - love starting at dawn",
+          "weights": {
+            "baker": 2,
+            "farmer": 2
+          }
+        },
+        {
+          "text": "Irregular - I'm fine with shift work",
+          "weights": {
+            "nurse": 1,
+            "emergency_responder": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "level": 4,
+      "text": "How do you prefer to communicate?",
+      "category": "communication",
+      "options": [
+        {
+          "text": "Through writing - I express best in text",
+          "weights": {
+            "writer": 3,
+            "journalist": 2,
+            "blogger": 2
+          }
+        },
+        {
+          "text": "Through speaking - I love conversation",
+          "weights": {
+            "teacher": 2,
+            "counselor": 2,
+            "sales": 2
+          }
+        },
+        {
+          "text": "Through visuals - I show, not tell",
+          "weights": {
+            "designer": 3,
+            "photographer": 2,
+            "artist": 2
+          }
+        },
+        {
+          "text": "Through doing - actions speak louder",
+          "weights": {
+            "chef": 1,
+            "builder": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "level": 4,
+      "text": "What impact do you want to have?",
+      "category": "purpose",
+      "options": [
+        {
+          "text": "Change individuals' lives directly",
+          "weights": {
+            "therapist": 3,
+            "teacher": 2,
+            "doctor": 2,
+            "coach": 2
+          }
+        },
+        {
+          "text": "Change society and systems",
+          "weights": {
+            "activist": 3,
+            "politician": 2,
+            "nonprofit_leader": 2
+          }
+        },
+        {
+          "text": "Create beauty and inspire",
+          "weights": {
+            "artist": 3,
+            "musician": 3,
+            "writer": 2
+          }
+        },
+        {
+          "text": "Solve practical problems",
+          "weights": {
+            "engineer": 3,
+            "developer": 2,
+            "inventor": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "level": 4,
+      "text": "How do you feel about public speaking?",
+      "category": "comfort",
+      "options": [
+        {
+          "text": "I love it - I'm a natural presenter",
+          "weights": {
+            "teacher": 2,
+            "speaker": 3,
+            "trainer": 2,
+            "professor": 2
+          }
+        },
+        {
+          "text": "I can do it when needed",
+          "weights": {}
+        },
+        {
+          "text": "I prefer to avoid it",
+          "weights": {
+            "writer": 1,
+            "programmer": 1,
+            "artist": 1
+          }
+        },
+        {
+          "text": "It terrifies me",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "level": 4,
+      "text": "What's your approach to learning new things?",
+      "category": "learning",
+      "options": [
+        {
+          "text": "Formal education - I like structure",
+          "weights": {
+            "academic": 2,
+            "professor": 2
+          }
+        },
+        {
+          "text": "Self-taught - I figure things out",
+          "weights": {
+            "entrepreneur": 2,
+            "artist": 1,
+            "developer": 1
+          }
+        },
+        {
+          "text": "Hands-on - I learn by doing",
+          "weights": {
+            "chef": 2,
+            "builder": 2
+          }
+        },
+        {
+          "text": "From mentors - I need guidance",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "level": 4,
+      "text": "How important is recognition and fame?",
+      "category": "values",
+      "options": [
+        {
+          "text": "I want to be known for my work",
+          "weights": {
+            "artist": 1,
+            "musician": 1,
+            "author": 1
+          }
+        },
+        {
+          "text": "Recognition from peers matters",
+          "weights": {}
+        },
+        {
+          "text": "I work best behind the scenes",
+          "weights": {
+            "editor": 2,
+            "producer": 1,
+            "assistant": 1
+          }
+        },
+        {
+          "text": "I don't care about recognition",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "level": 4,
+      "text": "What's your tolerance for risk?",
+      "category": "personality",
+      "options": [
+        {
+          "text": "High risk-tolerance - I'll bet on myself",
+          "weights": {
+            "entrepreneur": 3,
+            "artist": 1,
+            "freelancer": 1
+          }
+        },
+        {
+          "text": "Moderate - calculated risks only",
+          "weights": {}
+        },
+        {
+          "text": "Low - I prefer stability",
+          "weights": {
+            "government_worker": 1,
+            "teacher": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "level": 4,
+      "text": "How do you feel about routine?",
+      "category": "preference",
+      "options": [
+        {
+          "text": "I love routine and structure",
+          "weights": {
+            "accountant": 2,
+            "administrator": 2
+          }
+        },
+        {
+          "text": "I need variety and novelty",
+          "weights": {
+            "artist": 2,
+            "travel_blogger": 3,
+            "adventurer": 2
+          }
+        },
+        {
+          "text": "Some routine is fine",
+          "weights": {}
+        },
+        {
+          "text": "I hate routine - it kills my creativity",
+          "weights": {
+            "creative_director": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "level": 4,
+      "text": "What size of organization do you prefer?",
+      "category": "work_style",
+      "options": [
+        {
+          "text": "Small startup or my own business",
+          "weights": {
+            "entrepreneur": 2,
+            "small_business_owner": 2
+          }
+        },
+        {
+          "text": "Medium-sized company",
+          "weights": {}
+        },
+        {
+          "text": "Large corporation",
+          "weights": {
+            "corporate_lawyer": 1,
+            "executive": 1
+          }
+        },
+        {
+          "text": "Non-profit or mission-driven",
+          "weights": {
+            "nonprofit_worker": 2,
+            "activist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "level": 4,
+      "text": "How important is work-life balance?",
+      "category": "values",
+      "options": [
+        {
+          "text": "Most important - I need balance",
+          "weights": {}
+        },
+        {
+          "text": "Important but I'll work hard",
+          "weights": {}
+        },
+        {
+          "text": "I'm willing to sacrifice for success",
+          "weights": {
+            "entrepreneur": 1,
+            "doctor": 1
+          }
+        },
+        {
+          "text": "My work is my life - I love it",
+          "weights": {
+            "artist": 1,
+            "musician": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "level": 4,
+      "text": "Do you prefer working with data or people?",
+      "category": "preference",
+      "options": [
+        {
+          "text": "Data, systems, and information",
+          "weights": {
+            "data_scientist": 3,
+            "analyst": 3,
+            "researcher": 2
+          }
+        },
+        {
+          "text": "People, relationships, and emotions",
+          "weights": {
+            "counselor": 3,
+            "teacher": 2,
+            "sales": 2
+          }
+        },
+        {
+          "text": "Ideas and creativity",
+          "weights": {
+            "artist": 2,
+            "writer": 2
+          }
+        },
+        {
+          "text": "Physical objects and materials",
+          "weights": {
+            "chef": 2,
+            "builder": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "level": 4,
+      "text": "What's your ideal project length?",
+      "category": "work_style",
+      "options": [
+        {
+          "text": "Short-term (days to weeks)",
+          "weights": {
+            "freelancer": 1,
+            "journalist": 1
+          }
+        },
+        {
+          "text": "Medium-term (months)",
+          "weights": {}
+        },
+        {
+          "text": "Long-term (years or lifetime)",
+          "weights": {
+            "novelist": 2,
+            "researcher": 2,
+            "architect": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "level": 4,
+      "text": "How do you make decisions?",
+      "category": "personality",
+      "options": [
+        {
+          "text": "With logic and analysis",
+          "weights": {
+            "scientist": 2,
+            "engineer": 2
+          }
+        },
+        {
+          "text": "With intuition and gut feeling",
+          "weights": {
+            "artist": 1,
+            "therapist": 1
+          }
+        },
+        {
+          "text": "With consultation and consensus",
+          "weights": {}
+        },
+        {
+          "text": "With a mix of everything",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "level": 4,
+      "text": "What's your energy style?",
+      "category": "personality",
+      "options": [
+        {
+          "text": "Introvert - I recharge alone",
+          "weights": {
+            "writer": 2,
+            "programmer": 1
+          }
+        },
+        {
+          "text": "Extrovert - I recharge with people",
+          "weights": {
+            "teacher": 2,
+            "sales": 2
+          }
+        },
+        {
+          "text": "Ambivert - I need both",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "level": 4,
+      "text": "How do you handle failure?",
+      "category": "resilience",
+      "options": [
+        {
+          "text": "I learn and try again",
+          "weights": {
+            "entrepreneur": 2
+          }
+        },
+        {
+          "text": "I get discouraged but recover",
+          "weights": {}
+        },
+        {
+          "text": "I avoid failure at all costs",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "level": 4,
+      "text": "What's your relationship with details?",
+      "category": "skill",
+      "options": [
+        {
+          "text": "I'm meticulous and detail-oriented",
+          "weights": {
+            "editor": 2,
+            "accountant": 2,
+            "scientist": 1
+          }
+        },
+        {
+          "text": "I see the big picture",
+          "weights": {
+            "visionary": 2,
+            "director": 1
+          }
+        },
+        {
+          "text": "I'm somewhere in between",
+          "weights": {}
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "level": 4,
+      "text": "How important is variety in your work?",
+      "category": "preference",
+      "options": [
+        {
+          "text": "Essential - I get bored easily",
+          "weights": {
+            "freelancer": 1,
+            "consultant": 1
+          }
+        },
+        {
+          "text": "Nice but not necessary",
+          "weights": {}
+        },
+        {
+          "text": "I prefer deep focus on one thing",
+          "weights": {
+            "researcher": 2,
+            "novelist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "level": 4,
+      "text": "What's your preferred way to be compensated?",
+      "category": "motivation",
+      "options": [
+        {
+          "text": "Stable salary",
+          "weights": {}
+        },
+        {
+          "text": "Project-based fees",
+          "weights": {
+            "consultant": 1
+          }
+        },
+        {
+          "text": "Commission or performance-based",
+          "weights": {
+            "sales": 2
+          }
+        },
+        {
+          "text": "Royalties or passive income",
+          "weights": {
+            "author": 2,
+            "musician": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "level": 4,
+      "text": "How do you feel about competition?",
+      "category": "personality",
+      "options": [
+        {
+          "text": "I thrive on competition",
+          "weights": {
+            "entrepreneur": 1,
+            "sales": 1
+          }
+        },
+        {
+          "text": "I prefer collaboration",
+          "weights": {
+            "teacher": 1,
+            "social_worker": 1
+          }
+        },
+        {
+          "text": "I ignore competition and do my thing",
+          "weights": {
+            "artist": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "level": 4,
+      "text": "What's your ideal level of responsibility?",
+      "category": "ambition",
+      "options": [
+        {
+          "text": "High - I want to lead",
+          "weights": {
+            "ceo": 2,
+            "director": 2
+          }
+        },
+        {
+          "text": "Medium - I'll manage some things",
+          "weights": {}
+        },
+        {
+          "text": "Low - I prefer focused execution",
+          "weights": {
+            "craftsman": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "level": 4,
+      "text": "How do you prefer to generate ideas?",
+      "category": "creativity",
+      "options": [
+        {
+          "text": "Brainstorming with others",
+          "weights": {}
+        },
+        {
+          "text": "Quiet solitary reflection",
+          "weights": {
+            "writer": 1
+          }
+        },
+        {
+          "text": "Through research and analysis",
+          "weights": {
+            "scientist": 1
+          }
+        },
+        {
+          "text": "Through doing and experimenting",
+          "weights": {
+            "inventor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "level": 4,
+      "text": "What's your relationship with deadlines?",
+      "category": "work_style",
+      "options": [
+        {
+          "text": "I work best with clear deadlines",
+          "weights": {}
+        },
+        {
+          "text": "I prefer open-ended timelines",
+          "weights": {
+            "artist": 1
+          }
+        },
+        {
+          "text": "I always finish early",
+          "weights": {}
+        },
+        {
+          "text": "I work best under pressure",
+          "weights": {
+            "journalist": 1
+          }
+        }
+      ]
+    }
+  ]
+}
